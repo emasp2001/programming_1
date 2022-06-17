@@ -38,7 +38,7 @@ public class Juego {
         this.fichasDisponibles = new ListaFichas();
         this.tablero = new ListaFichas();
         llenarFichasDisponibles();
-        this.jugadorHumano = new Jugador(fichasDisponibles, true, "Emmanuel", tablero);
+        this.jugadorHumano = new Jugador(fichasDisponibles, true, "Francisco", tablero);
         this.jugadorCP = new Jugador(fichasDisponibles, false, "Maquina", tablero);
         this.cantidadFichasIniciar = 7;
         

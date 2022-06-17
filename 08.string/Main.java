@@ -17,7 +17,7 @@ public class Main {
         JOptionPane.showMessageDialog(null, hileras.esPalindromo("anita lava la tina"));
         JOptionPane.showMessageDialog(null, hileras.esAnagrama("fresa", "frase"));
         JOptionPane.showMessageDialog(null, hileras.cifrar("Hola mundoz", 3));
-        JOptionPane.showMessageDialog(null, "Xinia".compareTo("Emmanuel"));
+        JOptionPane.showMessageDialog(null, "Maria".compareTo("Pedro"));
         
         hileras.splitHileras("sphinx of black quartz judge my vow", "'");
     }
